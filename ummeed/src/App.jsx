@@ -3,19 +3,21 @@ import {BrowserRouter as Router , Routes, Route} from 'react-router-dom'
 import Home from './pages/StudentDashboard/Home'
 import Connect from './pages/StudentDashboard/Connect'
 import Tasks from './pages/StudentDashboard/Tasks'
-
+import Header from './Components/Header/Header'
 import Pricing from './pages/InstituteDashboard/Pricing'
 import Analytics from './pages/InstituteDashboard/Analytics'
 
 export default function App() {
   return (
+    
     <>
+<Header/>
 
       <Router>
+
         <Routes>
 
           {/* Student Dashboard */}
-
 
           <Route path='/student/' element={ <Home/> } />
           <Route path='/student/home' element={ <Home/> } />

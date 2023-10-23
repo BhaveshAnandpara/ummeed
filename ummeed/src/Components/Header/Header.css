@@ -1,0 +1,27 @@
+
+.NavContainer{
+    display: flex;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 1%;
+    padding-right: 1%;
+    align-content: stretch;
+}
+.NavElements{
+    display: flex;
+    padding-left: 20%;
+}
+.NavElements>Div{
+    padding-left: 63%;
+}
+.ProfileImg{
+    padding-left: 41%;
+
+}
+.NavElements>Div>a{
+    text-decoration: none;
+    color: black;
+}
