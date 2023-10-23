@@ -6,6 +6,7 @@ import Tasks from './pages/StudentDashboard/Tasks'
 import Header from './Components/Header/Header'
 import Pricing from './pages/InstituteDashboard/Pricing'
 import Analytics from './pages/InstituteDashboard/Analytics'
+import RoomPage from './pages/StudentDashboard/Room'
 
 export default function App() {
   return (
@@ -23,6 +24,7 @@ export default function App() {
           <Route path='/student/home' element={ <Home/> } />
           <Route path='/student/connect' element={ <Connect/> } />
           <Route path='/student/tasks' element={ <Tasks/> } />
+          <Route exact path='/room/:roomId' element={<RoomPage/>}/>
 
           {/* Institute Dashboard */}
 
