@@ -1,0 +1,14 @@
+/* Home Page */
+
+.MainHomeContainer{
+    padding-top: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.HomeThreeImg{
+    padding-top: 5%;
+
+}

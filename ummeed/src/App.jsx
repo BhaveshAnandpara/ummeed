@@ -1,18 +1,20 @@
 import React from 'react'
 import {BrowserRouter as Router , Routes, Route} from 'react-router-dom'
-import Home from './pages/StudentDashboard/Home'
+import Home from './pages/StudentDashboard/Home/Home'
 import Connect from './pages/StudentDashboard/Connect'
 import Tasks from './pages/StudentDashboard/Tasks'
 import Header from './Components/Header/Header'
 import Pricing from './pages/InstituteDashboard/Pricing'
 import Analytics from './pages/InstituteDashboard/Analytics'
 import RoomPage from './pages/StudentDashboard/Room'
-
+import '../src/App.css'
 export default function App() {
   return (
     
     <>
+
 <Header/>
+<Home/>
 
       <Router>
 

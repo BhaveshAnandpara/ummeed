@@ -1,8 +1,9 @@
 import React from 'react'
 // import {Link, useNavigate} from 'react-router-dom'
 import '../Header/Header.css'
- import UmeedLogo from '../Header/UmeedLogo.png'
- import ProfilePic from '../Header/ProfilePic.png'
+import { Link } from 'react-router-dom'
+import UmeedLogo from '../Header/UmeedLogo.png'
+import ProfilePic from '../Header/ProfilePic.png'
 export default function Header() {
     return (
         <div className='NavContainer'>
@@ -11,6 +12,7 @@ export default function Header() {
             </div>
             <div className="NavElements">
                 <div className="NavHome">
+
                     <a className='Home' href='' onClick={() => navigate('/Home')} ><p>Home</p></a>
                 </div>
                 <div className="NavConnect">
