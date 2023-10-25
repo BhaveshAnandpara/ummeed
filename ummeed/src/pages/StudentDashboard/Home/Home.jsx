@@ -5,7 +5,6 @@ import HomePicOne from '../../../assets/Img/HomePicOne.png'
 import HomePagePicTwo from '../../../assets/Img/HomePagePicTwo.png'
 import HomePgeBlogThree from '../../../assets/Img/HomePgeBlogThree.png'
 import CheckoutourPodcast from '../../../assets/Img/CheckoutourPodcast.png'
-
 import PodcastImg from '../../../assets/Img/PodcastImg.png'
 import Podcats from '../../../assets/Img/Podcats.png'
 import PodcastCard from './PodcastCard/PodcastCard'
