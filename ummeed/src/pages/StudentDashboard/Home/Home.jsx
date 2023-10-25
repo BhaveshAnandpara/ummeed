@@ -4,6 +4,8 @@ import '../Home/Home.css'
 import HomePicOne from '../../../assets/Img/HomePicOne.png'
 import HomePagePicTwo from '../../../assets/Img/HomePagePicTwo.png'
 import HomePgeBlogThree from '../../../assets/Img/HomePgeBlogThree.png'
+import CheckoutourPodcast from '../../../assets/Img/CheckoutourPodcast.png'
+
 import PodcastImg from '../../../assets/Img/PodcastImg.png'
 import Podcats from '../../../assets/Img/Podcats.png'
 import PodcastCard from './PodcastCard/PodcastCard'
@@ -25,7 +27,9 @@ export default function Home() {
       <img src={HomePgeBlogThree} alt="My Image" />
       </div>
       <div className="HomeThreeImg">
-      {/* <img src={PodcastImg} alt="My Image" /> */}<PodcastCard/>
+      <img  className='CheckoutourPodcastImg' src={CheckoutourPodcast} alt="My Image" />
+     
+      <PodcastCard/>
       </div>
       <div className="HomeThreeImg">
       <img src={Podcats} alt="My Image" />
