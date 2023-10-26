@@ -4,26 +4,31 @@ import '../Header/Header.css'
 import { Link } from 'react-router-dom'
 import UmeedLogo from '../Header/UmeedLogo.png'
 import ProfilePic from '../Header/ProfilePic.png'
+
+import { useNavigate } from 'react-router-dom'
+
 export default function Header() {
+
+    const navigate = useNavigate()
+
     return (
         <div className='NavContainer'>
             <div className="UmeedName">
                 <img src={UmeedLogo} alt="My Image" />
             </div>
             <div className="NavElements">
-                <div className="NavHome">
-
-                    <a className='Home' href='' onClick={() => navigate('/Home')} ><p>Home</p></a>
-                </div>
-                <div className="NavConnect">
-                    <a className='Connect' href='' onClick={() => navigate('/Connect')} ><p>Connect</p></a>
-                </div>
-                <div className="NavTask">
-                    <a className='Task' href='' onClick={() => navigate('/Task')} ><p>Task</p></a>
-                </div>
-                <div className="NavLogout">
-                    <a className='Logout' href='' onClick={() => navigate('/Logout')} ><p>Logout</p></a>
-                </div>
+                
+                    <a className='NavHome Home' href='' onClick={() => navigate('/student/Home')} ><p>Home</p></a>
+             
+                
+                    <a className='NavConnect Connect' href='' onClick={() => navigate('/student/Connect')} ><p>Connect</p></a>
+               
+                
+                    <a className='NavTask Task' href='' onClick={() => navigate('/student/Task')} ><p>Task</p></a>
+                
+                
+                    <a className='NavLogout Logout' href='' onClick={() => navigate('/student/Logout')} ><p>Logout</p></a>
+               
             </div>
             <div className="ProfileImg">
                 <img src={ProfilePic} alt="My Image" />

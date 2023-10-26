@@ -10,10 +10,15 @@ import Podcats from '../../../assets/Img/Podcats.png'
 import PodcastCard from './PodcastCard/PodcastCard'
 
 
+import Header from '../../../Components/Header/Header'
 
 export default function Home() {
   return (
     
+    <>
+    
+    <Header/>   
+
     <div className="MainHomeContainer">
       <div className="HomeOneImg">
       <img src={HomePicOne} alt="My Image" />
@@ -35,5 +40,7 @@ export default function Home() {
       
       </div>
     </div>
+
+    </>
   )
 }

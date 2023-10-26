@@ -14,16 +14,17 @@
 }
 .NavElements{
     display: flex;
-    padding-left: 20%;
+    margin-left: 20%;
 }
-.NavElements>Div{
-    padding-left: 63%;
+.NavElements>a{
+    margin-left: 63%;
 }
 .ProfileImg{
-    padding-left: 41%;
+    margin-left: 41%;
 
 }
-.NavElements>Div>a{
+.NavElements>a{
     text-decoration: none;
     color: black;
 }
+

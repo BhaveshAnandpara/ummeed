@@ -13,8 +13,6 @@ export default function App() {
     
     <>
 
-<Header/>
-<Home/>
 
       <Router>
 
