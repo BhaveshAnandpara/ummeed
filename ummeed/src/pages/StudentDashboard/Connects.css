@@ -1,0 +1,27 @@
+.Connect_Container{
+    display: flex;
+    justify-content: center;
+}
+
+.HeroSectionImg{margin-top: 6%;}
+
+.ConnectWithConHeading{
+margin-top: 3%;
+margin-left: 10%;
+}
+.ConnectCardsContainer{
+
+    width: 83%;
+    overflow: auto;
+    margin-left: 9%;
+    white-space: nowrap;
+    display: flex;
+}
+.CardsConnect{
+
+    margin: 4%;
+}
+.CardsConnects{
+
+    margin: 4%;
+}

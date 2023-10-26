@@ -1,0 +1,9 @@
+.BookSlotImg{
+    padding-top: 3%;
+}
+.BookSlotContainer{
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}

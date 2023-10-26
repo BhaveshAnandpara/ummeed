@@ -3,7 +3,7 @@ import React from 'react'
 import '../Header/Header.css'
 import { Link } from 'react-router-dom'
 import UmeedLogo from '../Header/UmeedLogo.png'
-import ProfilePic from '../Header/ProfilePic.png'
+import ClgHeader from '../CollegeHeader/ClgHeader.png'
 
 import { useNavigate } from 'react-router-dom'
 
@@ -18,20 +18,20 @@ export default function Header() {
             </div>
             <div className="NavElements">
                 
-                    <a className='NavHome Home' href='' onClick={() => navigate('/student/Home')} ><p>Home</p></a>
+                    <a className='NavHome Home' href='' onClick={() => navigate('/institute/Pricing')} ><p>Pricing</p></a>
              
                 
-                    <a className='NavConnect Connect' href='' onClick={() => navigate('/student/Connects')} ><p>Connect</p></a>
+                    <a className='NavConnect Connect' href='' onClick={() => navigate('/institute/analytics')} ><p>Analytics</p></a>
                
                 
-                    <a className='NavTask Task' href='' onClick={() => navigate('/student/Tasks')} ><p>Task</p></a>
+                    
                 
                 
                     <a className='NavLogout Logout' href='' onClick={() => navigate('/student/Logout')} ><p>Logout</p></a>
                
             </div>
             <div className="ProfileImg">
-                <img src={ProfilePic} alt="My Image" />
+                <img src={ClgHeader} alt="My Image" />
             </div>
         </div>
     )

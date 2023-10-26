@@ -4,10 +4,7 @@ import { useSocket } from "../context/SocketProvider";
 
 const Connect = () => {
 
-  //Get User Email ID and Room ID
 
-  const [email, setEmail] = useState("");
-  const [room, setRoom] = useState("");
 
   const socket = useSocket();
   const navigate = useNavigate();
@@ -61,7 +58,7 @@ const Connect = () => {
               value={room}
               onChange={(e) => setRoom(e.target.value)}
             />
-            <br />
+            <br/>
             <div className="LobbyJoin">
               <button className="BtnConnect">Join</button>
             </div>
