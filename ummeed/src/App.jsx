@@ -10,6 +10,7 @@ import Analytics from './pages/InstituteDashboard/Analytics'
 import RoomPage from './pages/StudentDashboard/Room'
 import BookSlot from './pages/StudentDashboard/BookSlot/BookSlot'
 import '../src/App.css'
+import Assessment from './pages/StudentDashboard/Assessment'
 export default function App() {
   return (
     
@@ -25,6 +26,7 @@ export default function App() {
           <Route path='/student/' element={ <Home/> } />
           <Route path='/student/home' element={ <Home/> } />
           <Route path='/student/Connects' element={ <Connects/> } />
+          <Route path='/student/assesment' element={ <Assessment/> } />
           <Route path='/student/Connect' element={ <Connect/> } />
           <Route path='/student/BookSlot' element={ <BookSlot/> } />
 

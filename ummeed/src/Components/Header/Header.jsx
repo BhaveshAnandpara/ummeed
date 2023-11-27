@@ -12,6 +12,7 @@ export default function Header() {
     const navigate = useNavigate()
 
     return (
+        
         <div className='NavContainer'>
             <div className="UmeedName">
                 <img src={UmeedLogo} alt="My Image" />
@@ -20,7 +21,9 @@ export default function Header() {
                 
                     <a className='NavHome Home' href='' onClick={() => navigate('/student/Home')} ><p>Home</p></a>
               
-                
+                    <a className='NavConnect Connect' href='' onClick={() => navigate('/student/assesment')} ><p>Test your Mental Health</p></a>
+
+
                     <a className='NavConnect Connect' href='' onClick={() => navigate('/student/Connects')} ><p>Connect</p></a>
                
                 

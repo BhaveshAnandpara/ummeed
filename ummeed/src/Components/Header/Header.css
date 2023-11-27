@@ -1,26 +1,26 @@
 
 .NavContainer{
     display: flex;
-    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 94%;
     position: fixed;
     z-index: 10;
     margin-top: -0.7%;
     background-color: white;
-    align-items: center;
-    flex-direction: row;
-    /* padding-left: 1%; */
-    padding-right: 1%;
+    padding: 0px 36px;
     align-content: stretch;
 }
 .NavElements{
     display: flex;
-    margin-left: 20%;
+    /* margin-left: 20%; */
 }
 .NavElements>a{
-    margin-left: 63%;
+    margin: 0px 36px;
 }
 .ProfileImg{
-    margin-left: 41%;
+    /* margin-left: 41%; */
 
 }
 .NavElements>a{
