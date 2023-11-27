@@ -19,7 +19,7 @@ export default function Header() {
             <div className="NavElements">
                 
                     <a className='NavHome Home' href='' onClick={() => navigate('/student/Home')} ><p>Home</p></a>
-             
+              
                 
                     <a className='NavConnect Connect' href='' onClick={() => navigate('/student/Connects')} ><p>Connect</p></a>
                
